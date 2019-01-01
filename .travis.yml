@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: WdrtJ3Bs3bSJJzy+ybFsib/H4O3IYanLDSiXwgNY6AhgU2B5D1XZL+MRuy9w9EovTs/ZMmZ4mMNZ1FmgqnI09A2eVGJZSJEHUtMTrsVGMEDzASAlMWY0XmzOURr71h1BcoADhB0qOuTPtuGVNNkznvr8ygMHKtKSymY34J6OfFhBWZgHG87v5uhYsrXgOgsUThVXBBF/2q+o8iMKfvRbuUcY234UtmLz5avCp9REY0WlYrZDDOjR5Auj5LBtb7/hMWKP93NCdemvJHvqWFvCl2JoGxr0QGASn1DaDyxHWSzygS6OaaIi8IR6nRfbdBnu/w70fEg49IWk/CO6f8xDN9UGO5gV4MlPHf7duOBrpUdBRlxmPIv8URkpghYzz2OxDmgfhfKOLzHJ7ZUIRZ/Bu3Tqn8ml0nZ5RTinv7S/7kNTOCXQqvZ/NZFAU+GnmgfS2xlQ2rWE0fc210/6Dr/akiqov388x/zFJ3L/ughn1E/jKf82ZhiIgsXEjfG8KAmX+UTmggTENuyACcD4kQU68qpC1/rvz6L81MAOFqcPBudsJaNvrOpdIE0NnQUCYgMSv/P5CFgaBGqXVHlb3CxymoNJ0yO0lJ6AeQhOr6ilvPYGvRwEDG/BQ0FJzqbUl73M2AGFahTLwrva8f64TUipcekIupAXoi78jn4nSl78CKU=
+  app: mysterious-basin-22698
+  on:
+    repo: rposner16/blog-api
